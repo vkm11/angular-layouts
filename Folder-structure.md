@@ -1,5 +1,20 @@
 # Demo
+## Folder Structure
+1) ng g c layouts/default
+1.1) ng g m layouts/default/
 
+2) ng g c layouts/fullwidth
+2.1) ng g m layouts/fullwidth/
+ 
+3) ng g c modules/home
+4) ng g c modules/login
+5) ng g c modules/posts
+
+6) ng g m shared  // create module
+6.1) ng g c shared/components/sidebar
+6.2) ng g c shared/components/header
+6.3) ng g c shared/components/footer
+ 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
 
 C:\Users\vijay>cd desktop
